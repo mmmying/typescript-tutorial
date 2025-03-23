@@ -11,7 +11,9 @@ export default defineUserConfig({
     logo: "https://vuejs.press/images/hero.png",
     navbar: [
       { link: "/", text: "首页" },
-      { link: "/guide/intro", text: "全文阅读" }
+      { link: "/guide/intro", text: "全文阅读" },
+      { link: "https://mmmying.github.io/how-browsers-work/", text: "浏览器工作原理" },
+      { link: "https://mmmying.github.io/", text: "我的博客" }
     ],
     sidebar: [
       { text: "1. 简介", link: "/guide/intro" },
